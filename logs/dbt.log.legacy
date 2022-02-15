@@ -384,3 +384,41 @@
 2022-02-15 12:10:33.869331 (Thread-138): handling status request
 2022-02-15 12:10:33.869700 (Thread-138): 12:10:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec21a070>]}
 2022-02-15 12:10:33.870292 (Thread-138): sending response (<Response 1244 bytes [200 OK]>) to 10.0.41.117
+2022-02-15 12:10:35.361137 (Thread-139): 12:10:35  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-15 12:10:35.361341 (Thread-139): 12:10:35  Partial parsing enabled, no changes found, skipping parsing
+2022-02-15 12:10:35.366133 (Thread-139): 12:10:35  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec153f10>]}
+2022-02-15 12:10:36.341972 (Thread-140): handling status request
+2022-02-15 12:10:36.342364 (Thread-140): 12:10:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec14fac0>]}
+2022-02-15 12:10:36.342848 (Thread-140): sending response (<Response 1244 bytes [200 OK]>) to 10.0.23.106
+2022-02-15 12:10:36.637445 (Thread-141): handling status request
+2022-02-15 12:10:36.637814 (Thread-141): 12:10:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec14f820>]}
+2022-02-15 12:10:36.638270 (Thread-141): sending response (<Response 1244 bytes [200 OK]>) to 10.0.15.228
+2022-02-15 12:21:19.724512 (Thread-142): handling status request
+2022-02-15 12:21:19.726047 (Thread-142): 12:21:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec14f610>]}
+2022-02-15 12:21:19.726545 (Thread-142): sending response (<Response 1222 bytes [200 OK]>) to 10.0.16.21
+2022-02-15 12:21:19.740623 (Thread-143): handling list request
+2022-02-15 12:21:19.740898 (Thread-143): 12:21:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec14f460>]}
+2022-02-15 12:21:19.773305 (Thread-143): 12:21:19  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec2129d0>]}
+2022-02-15 12:21:19.773593 (Thread-143): 12:21:19  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-02-15 12:21:19.773945 (Thread-143): 12:21:19  The selection criterion '+.gitignore+' does not match any nodes
+2022-02-15 12:21:19.774076 (Thread-143): 12:21:19  No nodes selected!
+2022-02-15 12:21:19.775533 (Thread-143): sending response (<Response 1923 bytes [200 OK]>) to 10.0.16.21
+2022-02-15 12:21:31.190751 (Thread-144): handling status request
+2022-02-15 12:21:31.191142 (Thread-144): 12:21:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec155670>]}
+2022-02-15 12:21:31.191665 (Thread-144): sending response (<Response 1222 bytes [200 OK]>) to 10.0.16.21
+2022-02-15 12:21:31.197331 (Thread-145): handling list request
+2022-02-15 12:21:31.197580 (Thread-145): 12:21:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec155a60>]}
+2022-02-15 12:21:31.226785 (Thread-145): 12:21:31  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec1557c0>]}
+2022-02-15 12:21:31.227054 (Thread-145): 12:21:31  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-02-15 12:21:31.227390 (Thread-145): 12:21:31  The selection criterion '+.gitignore+' does not match any nodes
+2022-02-15 12:21:31.227557 (Thread-145): 12:21:31  No nodes selected!
+2022-02-15 12:21:31.228972 (Thread-145): sending response (<Response 1923 bytes [200 OK]>) to 10.0.16.21
+2022-02-15 12:21:32.742229 (Thread-146): 12:21:32  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-15 12:21:32.742491 (Thread-146): 12:21:32  Partial parsing enabled, no changes found, skipping parsing
+2022-02-15 12:21:32.747528 (Thread-146): 12:21:32  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec0e1640>]}
+2022-02-15 12:21:34.140267 (Thread-147): handling status request
+2022-02-15 12:21:34.140917 (Thread-147): 12:21:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec122220>]}
+2022-02-15 12:21:34.141429 (Thread-148): handling status request
+2022-02-15 12:21:34.142031 (Thread-147): sending response (<Response 1244 bytes [200 OK]>) to 10.0.15.228
+2022-02-15 12:21:34.142357 (Thread-148): 12:21:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c0ff6df3-cf31-43ae-a059-dcc28f21ae92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5ec0dfa90>]}
+2022-02-15 12:21:34.143033 (Thread-148): sending response (<Response 1244 bytes [200 OK]>) to 10.0.47.129
